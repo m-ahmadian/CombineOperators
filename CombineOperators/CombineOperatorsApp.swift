@@ -12,6 +12,9 @@ struct CombineOperatorsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear {
+                    run()
+                }
         }
     }
 }
